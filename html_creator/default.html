@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>{{ title }}</title>
+            <style type="text/css">
+            body {margin: 0; padding: 0; min-width: 100%!important;}
+            .content {width: 100%; max-width: 600px;}
+            .col425 {width: 425px!important;}
+
+            @media only screen and (min-device-width: 601px) {
+            .content {width: 600px !important;}
+            }
+
+            .header {padding: 40px 30px 20px 30px;}
+            a:visited { text-decoration: none; color: blue; }
+            .subhead {font-size: 15px; color: #ffffff; font-family: sans-serif; letter-spacing: 10px;}
+            .h1 {font-size: 33px; line-height: 38px; font-weight: bold;}
+            .h1, .h2, .bodycopy {color: #000000; font-family: sans-serif;}
+            </style>
+        </head>
+        <body yahoo bgcolor="#ffffff">
+
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+            <![endif]-->
+            <table class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="header" bgcolor="#eeeeee" style="padding: 10px; margin: 0">
+                        <table width="600" align="left" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td colspan="2" bgcolor="#aaaaaa" style="padding: 10px">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                            <td class="h1" style="padding: 5px 0 0 0;">
+                                                {{body_head_title}}
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr >
+                                <td colspan="2" style="font-size:18px ;padding-top: 50px; padding-right: 20px; padding-left: 20px; padding-bottom: 10px">
+                                    {{body_middle_text}}
+                                </td>
+                            </tr>
+                            <tr  bgcolor="#ffffff">
+                                <td style="font-size: 14px; padding-bottom: 15px; padding-left: 15px" align="justify" valign="bottom">
+                                    {{body_bottom_text}}
+                                </td>
+                                <td width="10" height="100" style="padding: 0 20px 20px 0;" align="center">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                </tr>
+            </table>
+            <![endif]-->
+        </body>
+    </html>
